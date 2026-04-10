@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+<img src="https://raw.githubusercontent.com/ilikemichealjackson/hbgjnkboerwkpfqwbhjv/refs/heads/main/New%20Project%20(13).png" alt="Burgundy Collection">
+            <ul class="nav-links">
+                <li><a href="#" class="active" data-filter="all">All</a></li>
+                <li><a href="#" data-filter="hoodie">Hoodies</a></li>
+                <li><a href="#" data-filter="tee">Tees</a></li>
+                <li><a href="#" data-filter="pants">Pants</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Streetwear Collection</h1>
+            <p>Premium streetwear essentials</p>
+        </section>
+
+        <section class="products" id="products">
+            <!-- Products will be injected by JavaScript -->
+        </section>
+    </main>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="" alt="" id="modal-img">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modal-name"></h2>
+                    <p class="modal-color"><span>Color:</span> <span id="modal-color"></span></p>
+                    <p class="modal-size"><span>Sizes:</span> <span id="modal-size"></span></p>
+                    <a href="#" id="modal-link" class="btn" target="_blank">View Design</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Clothing Collection</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

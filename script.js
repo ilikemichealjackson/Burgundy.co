@@ -53,7 +53,7 @@ const products = [
     {
         id: 6,
         name: "Striped Button Up Burgundy BK Shirt",
-        image: "https://raw.githubusercontent.com/ilikemichealjackson/hbgjnkboerwkpfqwbhjv/refs/heads/main/image-removebg-preview%20(6).png",
+        image: "https://raw.githubusercontent.com/ilikemichealjackson/hbgjnkboerwkpfqwbhjv/refs/heads/main/image-removebg-preview%20(6) (1).png",
         url: "product-6.html",
         color: "Black",
         size: "S, M, L, XL",
@@ -63,7 +63,7 @@ const products = [
     {
         id: 7,
         name: "Edward Baker Burgundy Cash Camo Tee",
-        image: "https://raw.githubusercontent.com/ilikemichealjackson/hbgjnkboerwkpfqwbhjv/refs/heads/main/image-removebg-preview%20(7).png",
+        image: "https://raw.githubusercontent.com/ilikemichealjackson/hbgjnkboerwkpfqwbhjv/refs/heads/main/image-removebg-preview%20(7) (1).png",
         url: "product-7.html",
         color: "Black",
         size: "S, M, L, XL",
